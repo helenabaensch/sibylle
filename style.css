@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+ 
+* {
+    display: inline-block;
+    width: 300vw
+   
+}
+
+
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    width: 2000vw;
+background: rgb(144,103,248);
+background: linear-gradient(90deg, rgba(144,103,248,1) 0%, rgba(144,103,248,1) 26%, rgba(240,230,255,1) 55%, rgba(248,244,255,0.8785889355742297) 87%, rgba(144,103,248,1) 100%);
+}
+
+.Bild1 {
+    position: absolute;
+    top: 10px;
+    left: 3100px;
+    height: 100vh;
+    width: 45vw;
+    background: url("bers.tif") no-repeat;
+        
+        
+}
+
+.Bild1:hover {
+    background: url("siby.jpg") no-repeat;
+    
+}
+.Bild2 {
+    height: 100vh;
+    width: 40vw;
+    position: relative;
+    right: 800px;
+    background: url("bergabu.tif") no-repeat;
+    
+    
+    
+}
+
+.Bild2:hover {
+       background: url("sibylle.jpeg") no-repeat;
+}
+
+
+.Bild3 {
+    height: 100vh;
+    width: 50vw;
+    position: relative;
+bottom: 1280px;
+    left: 14300px;
+    background: url("bergb.tif") no-repeat;
+}
+
+.Bild3:hover {
+    background: url("berg.jpeg") no-repeat;
+}
+
+h1 {
+    font-family: "Space Grotesk";
+    font-size: 22vw;
+    height: 80vh;
+    width: 80vw;
+    line-height: 280px;
+    position: absolute;
+    top: -180px;
+    left: 50px;
+    color: whitesmoke
+    
+}
+
+h4 {
+    font-family: "Space Grotesk";
+    font-size: 8vw;
+    height: 80vh;
+    width: 90vw;
+    line-height: 130px;
+    position: absolute;
+    left: 1500px;
+    top: 80px;
+    color: #FFAE42
+}
+
+h2 {
+    font-size: 2vw;
+    position: relative;
+    left: 4250px;
+    font-family: "Space Grotesk";
+    top: -80px;
+    width: 29vw;
+    text-align: justify;
+    margin: 20px;
+    color: whitesmoke
+    
+}
+
+
+
+
+h3 {
+    position: relative;
+    top: -200px;
+    font-family: "Space Grotesk";
+    color: transparent
+    
+    
+
+}
+
+h6 {
+    position: relative; 
+    left: 14700px;
+    bottom: 1500px;
+    text-align: justify;
+    font-family: "Space Grotesk";
+    width: 30vw;
+    padding: 60px;
+    color:rgba(144,103,248,1) ;
+    font-size: 2vh
+}
+
+#interviewer {
+    position: relative;
+    top: -500px;
+    left: 4550px;
+    width: 20vw;
+    font-family: "Space Grotesk";
+    padding: 10px
+    
+
+}
+
+#einleitung {
+      position: relative;
+    left: 70px;
+   font-size: 60px;
+    color: #FFAE42;
+    font-family: "Space Grotesk";
+    text-align: justify
+}
+
+#sibylle {
+    position: relative;
+    bottom: 100px;
+    left: 4600px;
+    height: 80vh;
+    width: 30vw;
+    font-family: "Space Grotesk";
+    padding: 80px;
+    text-align: justify;
+    color: rgba(144,103,248,1)
+
+}
+
+span {
+    position: relative;
+    right: 40px;
+    width: 32vw;
+    font-style: oblique;
+    color: 
+}
+
+#ausnahme1 {
+    
+    width: 50vw;
+    font-style: normal;
+    position: relative;
+    right:0PX
+    
+    
+}
+
+#syb {
+    position: relative;
+    bottom: 100px;
+    left: 1100px;
+    width: 30vw;
+    font-family: "Space Grotesk";
+    padding: 60px;
+    text-align: justify;
+    color: rgba(144,103,248,1)
+    
+}
+
+#sybi {
+    position: relative;
+    bottom: 100px;
+    right: 2900px;
+    width: 30vw;
+    font-family: "Space Grotesk";
+    padding: 60px;
+    text-align: justify;
+    color: whitesmoke
+    
+}
+
+#sy {
+    position: relative;
+    bottom: 100px;
+    left: -6800px;
+    width: 30vw;
+    font-family: "Space Grotesk";
+    padding: 60px;
+    text-align: justify;
+ color: rgba(144,103,248,1)
+}
+
+#sybb {
+    position: relative;
+    bottom: 100px;
+    left: -9300px;
+    width: 30vw;
+    font-family: "Space Grotesk";
+    padding: 60px;
+    text-align: justify;
+    color: black
+    
+}
+
+#int {
+    position: relative;
+    left: 900px;
+    bottom: 500px;
+    width: 20vw;
+    font-family: "Space Grotesk"
+}
+
+#z1 {
+    position: relative;
+    left: 5800px;
+    top:-120px ;
+    color: #FFAE42;
+    font-size: 6vw;
+    height: 90vh;
+    width: 90vw;
+    line-height: 80px;
+    text-align: left
+    
+    
+}
+
+#schluss {
+    position: relative;
+    left: 100px;
+    font-size: 60px;
+    color: #FFAE42;
+    font-family: "Space Grotesk";
+    text-align: justify
+    
+
+}
+
+#hallo {
+    font-size: 60px;
+    color: #FFAE42;
+    font-family: "Space Grotesk";
+    font-weight: 600
+    
+}
+
+#a1 {
+    position: relative;
+        left: 5500px;
+   color: transparent
+}
+
+#z2 {
+    position: relative;
+    left: 1200px;
+    top: -350px;
+    color: #FFAE42;
+    font-size: 6vw;
+    height: 90vh;
+    width: 60vw;
+    line-height: 80px;
+    text-align: left
+}
+
+#a2 {
+    position: relative;
+    left: 1400px;
+    color: transparent
+}
+
+#z3 {
+    position: relative;
+    left: -2700px;
+    top: -120px;
+    color: #FFAE42;
+    font-size: 6vw;
+    height: 90vh;
+    width: 60vw;
+    line-height: 80px;
+    text-align: left
+}
+
+#a3 {
+    position: relative;
+    right: 2000px;
+    color: transparent
+}
+
+#z4 {
+    position: relative;
+    left: -6600px;
+    color: #FFAE42;
+    top: -140px;
+    font-size: 6vw;
+    height: 90vh;
+    width: 70vw;
+    line-height: 80px;
+    text-align: left
+   
+}
+
+#a4 {
+    position: relative;
+    left: -5500px;
+    
+    color: #FFAE42
+   
+}
